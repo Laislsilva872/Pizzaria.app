@@ -1,0 +1,34 @@
+:root{ --vermelho:#9A2E25; --dourado:#D39B3E; }
+.loja-card { margin-top: -40px; position: relative; z-index:2; }
+.logo-circulo{ width:60px; height:60px; font-size:1.6rem;}
+.card-img-placeholder{ height:110px; border-radius:14px 14px 0 0; background:linear-gradient(135deg,#f0d9a8, var(--dourado)); font-size:2.2rem; }
+.price{ color: var(--vermelho); font-weight:bold; }
+
+.topo{
+    height:180px;
+    background:url("img/banner.png") center/cover no-repeat;
+}
+
+.card-foto { height:180px; width:100%;  object-fit:cover; object-position: center 40%;}
+.card-promocao { width:100%; aspect-radio:4 / 3; object-fit: cover;}
+.logo-circulo { width:64px; height: 64px; object-fit: cover; border: 2px solid #fff;}
+
+.navbar-bella{ background:var(--vermelho)}
+
+
+.nav-pills{
+    --bs-nav-pills-link-active-bg: var(--vermelho);
+    --bs-nav-link-color: var(--vermelho);
+    --bs-nav-link-hover-color: #7d241d;
+}
+
+.nav-pills{
+    display: flex;
+    gap: 16px;
+}
+
+.btn-qtd{ border:1px solid var(--vermelho); color:var(--vermelho); background: transparent; }
+.btn-qtd:hover{ background: var(--vermelho); color: #fff;}
+ 
+html{scroll-behavior: smooth; }
+#cardapio, #como-instalar, #contato{ scroll-margin-top:70px; }
